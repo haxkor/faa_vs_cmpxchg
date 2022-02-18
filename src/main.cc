@@ -39,6 +39,9 @@ int main(int argc, const char* argv[])
 
     run_benchmarks(benchmarks, counter);
 
+    printf("second iteration\n");
+    run_benchmarks(benchmarks, counter);
+
     return 0;
 }
 
